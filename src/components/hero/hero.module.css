@@ -1,0 +1,16 @@
+.hero {
+  padding: 60px 20px;
+  background: #1a1a1a;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cta {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+}
