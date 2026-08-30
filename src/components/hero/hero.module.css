@@ -1,16 +1,44 @@
 .hero {
-  padding: 60px 20px;
+  padding: 80px 0;
   background: #1a1a1a;
-  text-align: center;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+.content {
+  color: #fff;
+}
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #aaa;
+  margin-bottom: 24px;
 }
 .cta {
-  background: var(--color-accent);
+  background: #d84315;
   color: #fff;
-  padding: 12px 32px;
-  border-radius: 4px;
+  border: none;
+  padding: 16px 40px;
+  font-size: 16px;
   font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.cta:hover {
+  background: #bf360c;
+}
+.image img {
+  width: 100%;
+  border-radius: 8px;
 }
