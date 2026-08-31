@@ -32,7 +32,7 @@
   height: 18px;
   flex-shrink: 0;
   margin-top: 3px;
-  color: var(--color-accent);
+  color: #ffffff; /* 👈 БЕЛЫЙ вместо --color-accent */
 }
 
 .addressList p {
@@ -50,7 +50,7 @@
   height: 18px;
   flex-shrink: 0;
   margin-top: 3px;
-  color: var(--color-accent);
+  color: #ffffff; /* 👈 БЕЛЫЙ вместо --color-accent */
 }
 
 .phoneText {
@@ -77,7 +77,6 @@
     justify-content: center;
     text-align: center;
   }
-
   .addresses,
   .phoneBlock {
     justify-content: center;

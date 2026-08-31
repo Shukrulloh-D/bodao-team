@@ -6,6 +6,7 @@ import { Directions } from "@/components/directions";
 import { Schedule } from "@/components/schedule";
 import { Instagram } from "@/components/instagram";
 import { Footer } from "@/components/footer";
+
 import styles from "./home-page.module.css";
 
 export const HomePage = () => {
