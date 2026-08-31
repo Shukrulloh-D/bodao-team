@@ -95,3 +95,9 @@
 .contacts .value a:hover {
   color: var(--color-accent-orange);
 }
+
+@media (max-width: 425px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
