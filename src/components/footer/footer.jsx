@@ -30,7 +30,7 @@ export const Footer = () => {
       <div className={styles.container}>
         <div className={styles.about}>
           <img
-            src="/public/logo.svg"
+            src="/favicon.svg"
             alt="Bodao Fight Team"
             className={styles.logo}
           />
