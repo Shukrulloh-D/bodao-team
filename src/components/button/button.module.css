@@ -1,0 +1,22 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-accent-orange);
+  color: #111;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 18px 32px;
+  border-radius: 30px;
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background: #d99e1f;
+}
+
+.arrow {
+  font-size: 16px;
+}

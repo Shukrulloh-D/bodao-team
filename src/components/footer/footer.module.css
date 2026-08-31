@@ -1,0 +1,97 @@
+.footer {
+  background-color: var(--color-bg);
+  padding: 80px 0 40px;
+  border-top: 1px solid var(--color-border);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 40px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.text {
+  max-width: 320px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.socials {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+.socialIcon:hover {
+  color: var(--color-accent-orange);
+}
+
+.policyLink {
+  font-size: 13px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.nav h3,
+.contacts h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav a {
+  font-size: 14px;
+  color: #fff;
+}
+.nav a:hover {
+  color: var(--color-accent-orange);
+}
+
+.contacts .label {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-accent-orange);
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+.contacts .label:first-of-type {
+  margin-top: 0;
+}
+
+.contacts .value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.contacts .value a {
+  color: #fff;
+}
+.contacts .value a:hover {
+  color: var(--color-accent-orange);
+}

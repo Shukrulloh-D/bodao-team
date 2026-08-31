@@ -1,10 +1,19 @@
 import styles from "./button.module.css";
 
-export const Button = () => {
+export const Button = ({
+  children,
+  onClick,
+  className = "",
+  type = "button",
+}) => {
   return (
-    <section className={styles.section}>
-      <h2>Кнопки</h2>
-      {/* Здесь будет контент */}
-    </section>
+    <button
+      type={type}
+      onClick={onClick}
+      className={`${styles.button} ${className}`}
+    >
+      <span className={styles.arrow}>→</span>
+      {children}
+    </button>
   );
 };

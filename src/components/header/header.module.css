@@ -1,0 +1,84 @@
+.header {
+  background-color: var(--color-bg);
+  padding: 24px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.logo img {
+  width: 64px;
+  height: 64px;
+}
+
+.addresses {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--color-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.pinIcon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: #ffffff; /* 👈 БЕЛЫЙ вместо --color-accent */
+}
+
+.addressList p {
+  margin: 0;
+}
+
+.phoneBlock {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.phoneIcon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  color: #ffffff; /* 👈 БЕЛЫЙ вместо --color-accent */
+}
+
+.phoneText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.phoneText a:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.whatsapp {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .addresses,
+  .phoneBlock {
+    justify-content: center;
+  }
+}
